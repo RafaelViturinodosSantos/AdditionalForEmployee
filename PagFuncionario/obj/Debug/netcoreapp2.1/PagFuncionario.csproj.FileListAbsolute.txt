@@ -1,0 +1,11 @@
+C:\Users\rafa_\Desktop\C#\Programas\PagFuncionario\PagFuncionario\bin\Debug\netcoreapp2.1\PagFuncionario.deps.json
+C:\Users\rafa_\Desktop\C#\Programas\PagFuncionario\PagFuncionario\bin\Debug\netcoreapp2.1\PagFuncionario.runtimeconfig.json
+C:\Users\rafa_\Desktop\C#\Programas\PagFuncionario\PagFuncionario\bin\Debug\netcoreapp2.1\PagFuncionario.runtimeconfig.dev.json
+C:\Users\rafa_\Desktop\C#\Programas\PagFuncionario\PagFuncionario\bin\Debug\netcoreapp2.1\PagFuncionario.dll
+C:\Users\rafa_\Desktop\C#\Programas\PagFuncionario\PagFuncionario\bin\Debug\netcoreapp2.1\PagFuncionario.pdb
+C:\Users\rafa_\Desktop\C#\Programas\PagFuncionario\PagFuncionario\obj\Debug\netcoreapp2.1\PagFuncionario.csprojAssemblyReference.cache
+C:\Users\rafa_\Desktop\C#\Programas\PagFuncionario\PagFuncionario\obj\Debug\netcoreapp2.1\PagFuncionario.csproj.CoreCompileInputs.cache
+C:\Users\rafa_\Desktop\C#\Programas\PagFuncionario\PagFuncionario\obj\Debug\netcoreapp2.1\PagFuncionario.AssemblyInfoInputs.cache
+C:\Users\rafa_\Desktop\C#\Programas\PagFuncionario\PagFuncionario\obj\Debug\netcoreapp2.1\PagFuncionario.AssemblyInfo.cs
+C:\Users\rafa_\Desktop\C#\Programas\PagFuncionario\PagFuncionario\obj\Debug\netcoreapp2.1\PagFuncionario.dll
+C:\Users\rafa_\Desktop\C#\Programas\PagFuncionario\PagFuncionario\obj\Debug\netcoreapp2.1\PagFuncionario.pdb
