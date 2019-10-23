@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Globalization;
 
-namespace PagFuncionario.Entities.Enums
+namespace PagFuncionario.Entities
 {
     class Employee
     {

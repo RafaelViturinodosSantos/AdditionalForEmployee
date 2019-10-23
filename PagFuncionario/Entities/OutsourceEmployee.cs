@@ -1,8 +1,8 @@
-﻿using PagFuncionario.Entities.Enums;
+﻿using PagFuncionario.Entities;
 using System.Globalization;
 using System.Text;
 
-namespace PagFuncionario.Entities.Enums
+namespace PagFuncionario.Entities
 {
     class OutsourceEmployee : Employee
     {

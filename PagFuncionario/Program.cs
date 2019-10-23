@@ -1,13 +1,15 @@
 ﻿using System;
-using PagFuncionario.Entities.Enums;
+using PagFuncionario.Entities;
+using System.Collections.Generic;
+using System.Globalization;
 namespace PagFuncionario
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Employee e;
-            OutsourceEmployee o;
+            List<Employee> emp = new List<Employee>();
+            List<OutsourceEmployee> o = new List<OutsourceEmployee>();
 
             Console.Write("Enter the number of employees: ");
             int number = int.Parse(Console.ReadLine());
@@ -26,9 +28,7 @@ namespace PagFuncionario
                     Console.Write("Value Per hours: ");
                     double valuePerHours = double.Parse(Console.ReadLine());
 
-                    e = new Employee(name, hours, valuePerHours);
-                    e.Payment();
-                    Console.WriteLine(e);
+                    emp.Add(new Employee(name, hours, valuePerHours));
                 }
                 else if (yn == 'y' || yn == 'Y')
                 {
@@ -41,11 +41,17 @@ namespace PagFuncionario
                     Console.Write("Additional charge: ");
                     double additionalCharge = double.Parse(Console.ReadLine());
 
-                    o = new OutsourceEmployee(name, hours, valuePerHours, additionalCharge);
-                    o.Payment();
-
-                    
-                    Console.WriteLine(o);
+                    o.Add(new OutsourceEmployee(name, hours, valuePerHours, additionalCharge));                
+                   
+                }
+                foreach(Employee employee in emp)
+                {
+                    Console.WriteLine(employee.Name + ": $ " + employee.Payment().ToString("F2", CultureInfo.InvariantCulture));
+                }
+                foreach(OutsourceEmployee outsourceEmployee in o)
+                {
+                    Console.WriteLine(outsourceEmployee.Name + ": $ " + outsourceEmployee.Payment().ToString
+                        ("F2", CultureInfo.InvariantCulture));
                 }
                 Console.ReadLine();
             }
